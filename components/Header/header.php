@@ -145,23 +145,23 @@
                                             <li>
                                                 <hr class="dropdown-divider">
                                             </li>
-                                            <li><a class="dropdown-item" href="./pages/navbar-sublist/Admissions-List/gra2.php">課程規劃(Kế Hoạch Giảng Dạy)</a></li>
+                                            <li><a class="dropdown-item" href="./pages/navbar-sublist/Admissions-List/gra3.php">課程規劃(Kế Hoạch Giảng Dạy)</a></li>
                                             <li>
                                                 <hr class="dropdown-divider">
                                             </li>
-                                            <li><a class="dropdown-item" href="./pages/navbar-sublist/Admissions-List/gra2.php">課程基準表(Chương Trình Học)</a></li>
+                                            <li><a class="dropdown-item" href="./pages/navbar-sublist/Admissions-List/gra4.php">課程基準表(Chương Trình Học)</a></li>
                                             <li>
                                                 <hr class="dropdown-divider">
                                             </li>
-                                            <li><a class="dropdown-item" href="./pages/navbar-sublist/Admissions-List/gra2.php">教育部境外生諮詢專線(Bộ giáo dục Đường dây nóng)</a></li>
+                                            <li><a class="dropdown-item" href="./pages/navbar-sublist/Admissions-List/gra5.php">教育部境外生諮詢專線(Bộ giáo dục Đường dây nóng)</a></li>
                                             <li>
                                                 <hr class="dropdown-divider">
                                             </li>
-                                            <li><a class="dropdown-item" href="./pages/navbar-sublist/Admissions-List/gra2.php">學習輔助資源(Hỗ Trợ Học Tập)</a></li>
+                                            <li><a class="dropdown-item" href="./pages/navbar-sublist/Admissions-List/gra6.php">學習輔助資源(Hỗ Trợ Học Tập)</a></li>
                                             <li>
                                                 <hr class="dropdown-divider">
                                             </li>
-                                            <li><a class="dropdown-item" href="./pages/navbar-sublist/Admissions-List/gra2.php">課表 (Lịch Học)</a></li>
+                                            <li><a class="dropdown-item" href="./pages/navbar-sublist/Admissions-List/gra7.php">課表 (Lịch Học)</a></li>
                                         </ul>
                                     </li>
 

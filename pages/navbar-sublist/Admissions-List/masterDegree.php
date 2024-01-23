@@ -21,7 +21,7 @@
 
         <div class="main">
             <div class="title">
-                <h2>碩士班</h2>
+                <h2>AI加值智慧製造專班</h2>
             </div>
 
             <div class="photo">
@@ -30,8 +30,13 @@
 
             <div class="detail">
                 <ul>
-                    <li><a class="dropdown-item" href="./pages/navbar-sublist/Admissions-List/gra1.php">碩士班甄試招生</a></li>
-                    <li><a class="dropdown-item" href="./pages/navbar-sublist/Admissions-List/gra2.php">碩士班考試暨碩士在職專班甄試招生</a></li>
+                    <li><a class="dropdown-item" href="./pages/navbar-sublist/Admissions-List/gra1.php">相關法規(Pháp Luật Liên Quan)</a></li>
+                    <li><a class="dropdown-item" href="./pages/navbar-sublist/Admissions-List/gra2.php">招生簡章(Thông Tin Tuyển Sinh)</a></li>
+                    <li><a class="dropdown-item" href="./pages/navbar-sublist/Admissions-List/gra3.php">課程規劃(Kế Hoạch Giảng Dạy)</a></li>
+                    <li><a class="dropdown-item" href="./pages/navbar-sublist/Admissions-List/gra4.php">課程基準表(Chương Trình Học)</a></li>
+                    <li><a class="dropdown-item" href="./pages/navbar-sublist/Admissions-List/gra5.php">教育部境外生諮詢專線(Bộ giáo dục Đường dây nóng)</a></li>
+                    <li><a class="dropdown-item" href="./pages/navbar-sublist/Admissions-List/gra6.php">學習輔助資源(Hỗ Trợ Học Tập)</a></li>
+                    <li><a class="dropdown-item" href="./pages/navbar-sublist/Admissions-List/gra7.php">課表 (Lịch Học)</a></li>
                 </ul>
             </div>
         </div>
