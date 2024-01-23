@@ -4,7 +4,7 @@
 <head>
     <?php include '../../../headConfig.php'; ?>
 
-    <title>碩士班考試暨碩士在職專班甄試招生</title>
+    <title>招生簡章(Thông Tin Tuyển Sinh)</title>
 </head>
 
 <body>
@@ -15,8 +15,8 @@
             <ol>
                 <li class="a1"><a href="./index.php">首頁</a></li>
                 <li class="a2"><a href="./pages/navbar-headlist/admissions.php">招生資訊</a></li>
-                <li class="a3"><a href="./pages/navbar-sublist/Admissions-List/masterDegree.php">碩士班</a></li>
-                <li class="a4"><a href="./pages/navbar-sublist/Admissions-List/gra2.php">碩士班考試暨碩士在職專班甄試招生</a></li>
+                <li class="a3"><a href="./pages/navbar-sublist/Admissions-List/masterDegree.php">AI加值智慧製造專班</a></li>
+                <li class="a4"><a href="./pages/navbar-sublist/Admissions-List/gra2.php">招生簡章(Thông Tin Tuyển Sinh)</a></li>
             </ol>
         </div>
 
@@ -27,21 +27,18 @@
 
 
             <div class="title">
-                <h2>碩士班考試暨碩士在職專班甄試招生</h2><br><br>
+                <h2>招生簡章(Thông Tin Tuyển Sinh)</h2><br><br>
             </div>
 
             <table class="table">
                 <tr class="row header">
-                    <th class="cell">碩士在職專班甄試招生</th>
+                    <th class="cell">招生簡章(Thông Tin Tuyển Sinh)</th>
                 </tr>
-                <tr class="row" onclick="window.location='https://recruit.takming.edu.tw/var/file/2/1002/img/134/635509681.pdf';" style="cursor: pointer;">
-                    <td class="cell">112碩士班考試暨碩士在職專班甄試招生</td>
+                <tr class="row" onclick="window.location='https://misweb.takming.edu.tw/var/file/31/1031/img/370/661398018.pdf';" style="cursor: pointer;">
+                    <td class="cell">111學年度外籍專班 產學專班  招生簡章(中越英版)</td>
                 </tr>
-                <tr class="row" onclick="window.location='https://recruit.takming.edu.tw/var/file/2/1002/img/344/477132824.pdf';" style="cursor: pointer;">
-                    <td class="cell">Q & A-碩士班、碩專班單獨招生</td>
-                </tr>
-                <tr class="row" onclick="window.location='https://www.youtube.com/watch?v=7xylZ9xz2wY&feature=youtu.be';" style="cursor: pointer;">
-                    <td class="cell">112碩士暨碩專班入學招生說明會影片</td>
+                <tr class="row" onclick="window.location='https://misweb.takming.edu.tw/var/file/31/1031/img/348658940.pdf';" style="cursor: pointer;">
+                    <td class="cell">112學年度外籍專班 產學專班  招生簡章(中越英版)</td>
                 </tr>
             </table>
         </div>

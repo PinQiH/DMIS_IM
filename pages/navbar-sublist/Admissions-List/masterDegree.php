@@ -4,7 +4,7 @@
 <head>
     <?php include '../../../headConfig.php'; ?>
 
-    <title>碩士班</title>
+    <title>AI加值智慧製造專班</title>
 </head>
 
 <body>
@@ -15,7 +15,7 @@
             <ol>
                 <li class="a1"><a href="./index.php">首頁</a></li>
                 <li class="a2"><a href="./pages/navbar-headlist/admissions.php">招生資訊</a></li>
-                <li class="a3"><a href="./pages/navbar-sublist/Admissions-List/masterDegree.php">碩士班</a></li>
+                <li class="a3"><a href="./pages/navbar-sublist/Admissions-List/masterDegree.php">AI加值智慧製造專班</a></li>
             </ol>
         </div>
 

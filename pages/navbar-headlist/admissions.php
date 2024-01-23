@@ -26,7 +26,7 @@
             <div class="detail">
                 <ul>
                     <li><a class="dropdown-item" href="./pages/navbar-sublist/Admissions-List/undergraduate.php">大學部</a></li>
-                    <li><a class="dropdown-item" href="./pages/navbar-sublist/Admissions-List/masterDegree.php">碩士班</a></li> 
+                    <li><a class="dropdown-item" href="./pages/navbar-sublist/Admissions-List/masterDegree.php">AI加值智慧製造專班</a></li> 
                 </ul>
             </div>
         </div>

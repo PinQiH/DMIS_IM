@@ -4,7 +4,7 @@
 <head>
     <?php include '../../../headConfig.php'; ?>
 
-    <title>碩士班甄試招生</title>
+    <title>相關法規(Pháp Luật Liên Quan)</title>
 </head>
 
 <body>
@@ -15,8 +15,8 @@
             <ol>
                 <li class="a1"><a href="./index.php">首頁</a></li>
                 <li class="a2"><a href="./pages/navbar-headlist/admissions.php">招生資訊</a></li>
-                <li class="a3"><a href="./pages/navbar-sublist/Admissions-List/masterDegree.php">碩士班</a></li>
-                <li class="a4"><a href="./pages/navbar-sublist/Admissions-List/gra1.php">碩士班甄試招生</a></li>
+                <li class="a3"><a href="./pages/navbar-sublist/Admissions-List/masterDegree.php">AI加值智慧製造專班</a></li>
+                <li class="a4"><a href="./pages/navbar-sublist/Admissions-List/gra1.php">相關法規(Pháp Luật Liên Quan)</a></li>
             </ol>
         </div>
 
@@ -26,18 +26,15 @@
             </div><br><br>
 
             <div class="title">
-                <h2>碩士班甄試招生</h2><br><br>
+                <h2>相關法規(Pháp Luật Liên Quan)</h2><br><br>
             </div>
 
             <table class="table">
                 <tr class="row header">
-                    <th class="cell">碩士班甄試招生</th>
+                    <th class="cell">相關法規(Pháp Luật Liên Quan)</th>
                 </tr>
-                <tr class="row" onclick="window.location='https://recruit.takming.edu.tw/var/file/2/1002/img/133/399962583.pdf';" style="cursor: pointer;">
-                    <td class="cell">113學年度碩士班甄試入學招生簡章</td>
-                </tr>
-                <tr class="row" onclick="window.location='https://recruit.takming.edu.tw/var/file/2/1002/img/344/477132824.pdf';" style="cursor: pointer;">
-                    <td class="cell">Q & A-碩士班、碩專班單獨招生</td>
+                <tr class="row" onclick="window.location='https://misweb.takming.edu.tw/var/file/31/1031/img/370/493741477.pdf';" style="cursor: pointer;">
+                    <td class="cell">德明財經科技大學外國學生助學金規定</td>
                 </tr>
             </table>
         </div>
