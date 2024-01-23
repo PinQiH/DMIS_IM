@@ -1,0 +1,135 @@
+header {
+  display: block;
+}
+
+.header {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+  /* justify-content: space-around; */
+
+} 
+
+.fontpage {
+  width: 100%;  
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  margin: 10px;
+}
+
+.fontpage a {
+  display: flex;
+  align-items: center;  
+  text-align: left;  
+  color: #000;
+}
+
+.fontpage .text-container {
+  display: flex;
+  flex-direction: column;  
+}
+
+.fontpage h2,
+.fontpage h3,
+.fontpage h4 {
+  font-family: 標楷體;
+  font-weight: 800;
+  margin: 5px 0; 
+}
+
+.fontpage h2 {
+  font-size: 28px;
+}
+
+.fontpage h3,
+.fontpage h4 {
+  font-size: 18px;
+}
+
+.logo {
+  position: relative;
+  top: 0; /* 距離頂部的距離 */
+  left: 0; /* 距離左側的距離 */
+  width: 800px; /* 確保圖片寬度不超過其容器的寬度 */
+  height: auto;
+}
+
+@media screen and (max-width: 769px) {
+  .logo { 
+    max-width: 480px; 
+  }
+
+  .fontpage {
+    width: 100%; 
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+  }
+
+  .fontpage a {
+    position: relative; 
+    left: 0;
+    top: 0;
+  }
+
+  .fontpage h2, .fontpage h4 {
+    position: static; 
+  }
+} 
+
+.navbar-nav {
+  display: flex; 
+  flex-wrap: wrap;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.navbar-nav a { 
+  text-decoration: none;
+  margin-top: -2px;  
+  margin-bottom: -1px;  
+} 
+
+.dropdown-menu {
+  margin-top: 2px; 
+}
+
+.navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-nav li a:hover {
+  color: white;
+  background-color: #baa6c9;
+}
+
+.dropdown-item, .item-title {
+  padding: 10px; 
+  color: black;
+}
+
+.dropdown .dropdown-menu {
+  display: none; 
+} 
+
+.dropdown:hover > .dropdown-menu,
+.dropend:hover > .dropdown-menu {
+  display: block;
+  margin-top: 0.125em;
+  margin-left: 0.125em;
+}
+
+@media screen and (min-width: 769px) {
+  .dropend:hover > .dropdown-menu {
+    position: absolute;
+    top: 0;
+    left: 100%;
+  }
+
+  .dropend .dropdown-toggle{
+    margin-left: .5em;
+  }
+}

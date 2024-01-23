@@ -1,0 +1,23 @@
+.banner {
+    width: 100%;
+    margin: 20px auto 5px;  
+}   
+
+.banner .carousel-item {
+    height: 100%;
+    margin: 0px 0px 10px; 
+}
+
+.banner img {
+    width: 100%;  
+    height: auto;  
+}
+ 
+@media screen and (min-width: 769px) {
+
+
+    .banner .carousel-item {
+        height: 50%; 
+    }
+}
+

@@ -1,0 +1,842 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+hgroup,
+menu,
+nav,
+section,
+.tab {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    background-color: #f2f3f5;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+.wrap {
+    width: 90%;
+    margin: 0px auto;
+    background-color: #f2f3f5;
+}
+
+.main {
+    height: auto;
+    background-color: antiquewhite;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+}
+
+.main p {
+    font-size: 30px;
+    font-family: 微軟正黑體;
+    font-weight: bold;
+    color: black;
+    margin: 10px;
+    text-align: center;
+}
+
+.detail p {
+    font-size: 15px;
+    font-family: 微軟正黑體;
+    color: black;
+    margin: 10px;
+    text-align: left;
+}
+
+.detail a {
+    text-decoration: underline;
+    color: black;
+}
+
+.detail a:hover {
+    text-decoration: none;
+}
+
+.detail table a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.index {
+    display: flex;
+    justify-content: space-between;
+}
+
+.href {
+    height: 30px;
+    margin-top: 30px;
+    background-color: #baa6c9;
+
+}
+
+.href ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+    margin-left: 5%;
+}
+
+.href li {
+    display: inline-block;
+}
+
+.href a {
+    color: #000;
+}
+
+.a1::after {
+    content: '/';
+    margin-left: 5px;
+}
+
+.a2::after {
+    content: '/';
+    margin-left: 5px;
+}
+
+.a3::after {
+    content: '/';
+    margin-left: 5px;
+}
+
+.title h2 {
+    font-size: 30px;
+    font-family: 微軟正黑體;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    padding-top: 20px
+}
+
+.text h1 {
+    font-size: 20px;
+    font-family: 微軟正黑體;
+    font-weight: bold;
+    padding-top: 50px;
+    color: black;
+    font-size: 30px;
+    margin-top: 20px;
+    /* 將標題往下移動10像素 */
+    text-align: center;
+}
+
+.detail table {
+    text-align: left;
+    width: 100%;
+}
+
+.detail table th.year {
+    width: 20%;
+}
+
+.detail table th.thing,
+.detail table td.thing {
+    width: 80%;
+}
+
+.detail {
+    font-size: 18px;
+    font-family: 微軟正黑體;
+    word-wrap: break-word;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: left;
+}
+
+.detail ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.detail li {
+    margin-bottom: 30px;
+
+}
+
+.details h1 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.details h2 {
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.phohograph {
+    text-align: center;
+    padding: 10px;
+}
+
+.phohograph img {
+    width: 1000px;
+    height: auto;
+}
+
+.phohograph-2 img {
+    margin-left: 35px;
+    margin-top: 40px;
+    width: 650px;
+    height: 450px;
+}
+
+@media screen and (max-width: 768px) {
+    .phohograph-2 img {
+        margin-left: 0;
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+.phohograph-3 img {
+    /* width: 250px;
+    height: 250px; */
+    width: 100%;
+    /* 確保照片填滿容器 */
+    height: auto;
+    /* 保持照片比例 */
+    object-fit: cover;
+    /* 保持照片覆蓋整個容器 */
+}
+
+@media screen and (max-width: 768px) {
+    .phohograph-3 img {
+        margin-left: 0;
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+.phohograph-4 img {
+    margin-left: 50px;
+    width: auto;
+    height: 375px;
+    width: 575px;
+    margin-top: 50px;
+}
+
+.phohograph-5 img {
+    width: 400px;
+    height: 350px;
+}
+
+.pho img {
+    margin-left: 35px;
+    margin-top: 40px;
+    width: 650px;
+    height: 450px;
+}
+
+.photo img {
+    margin-top: 20px;
+}
+
+.carousel-inner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.content-wrapper,
+.content-wrapper-2,
+.content-wrapper-3 {
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 20px;
+}
+
+.content-wrapper-4 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.content-container,
+.content-container-2,
+.content-container-3 {
+    flex-basis: 40%;
+    box-sizing: border-box;
+    flex: 1 1 auto;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.content-container-4 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.content-container-5 {
+    flex: 1;
+    margin: 10px;
+}
+
+.bdtext {
+    flex-grow: 1;
+    /* 允許文字部分填滿剩餘空間 */
+    padding-left: 20px;
+    /* 為文字和圖片之間添加一些間隔 */
+}
+
+@media screen and (max-width: 769px) {
+
+    .phohograph-3,
+    .bdtext {
+        flex-basis: 100%;
+        /* 全寬 */
+    }
+}
+
+.bdtext ul {
+    list-style-type: disc;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.bdtext li {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.bdtext h1 {
+    width: 300px;
+    text-align: center;
+    margin-left: 40px;
+    line-height: 30px;
+    height: 30px;
+    background-color: #baa6c9;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.bdtext h2 {
+    font-size: 20px;
+    margin-left: 85px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+.bdtext span {
+    font-size: 20px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.bdtext-4 {
+    text-align: left;
+    margin-left: 25px;
+}
+
+.bdtext-4 ul {
+    list-style-type: disc;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.bdtext-4 li {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.bdtext-4 h1 {
+    text-align: center;
+    margin-left: 40px;
+    line-height: 30px;
+    height: 30px;
+    background-color: #baa6c9;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.material-icons {
+    font-size: 35px;
+    vertical-align: middle;
+    color: black;
+    margin-left: 35px;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+.container table {
+    border: 1px solid #000;
+    font-family: 微軟正黑體;
+    font-size: 16px;
+    width: 200px;
+    border: 1px solid #000;
+    text-align: left;
+    border-collapse: collapse;
+    overflow-x: auto;
+}
+
+.container1 table {
+    border: 1px solid #000;
+    font-family: 微軟正黑體;
+    font-size: 16px;
+    border: 1px solid #000;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+    margin: auto;
+    /* border: 2px solid #f00; */
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* th, td {
+    border: 1px solid #00f; 
+}  */
+
+th {
+    color: #444444;
+}
+
+.table-bordered {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 22px;
+}
+
+.table-bordered td,
+.tab th {
+    padding: 10px;
+    border: #000 solid 1px;
+}
+
+.table-bordered th {
+    background-color: #baa6c9;
+    border: #000 solid 1px;
+}
+
+.left-table,
+.right-table {
+    padding: 10px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.left-table p,
+.right-table p {
+    font-size: 30px;
+    font-family: 微軟正黑體;
+    font-weight: bold;
+    color: black;
+    margin: 10px;
+    padding: 8px;
+    text-align: left;
+    width: 800px;
+}
+
+.left-table th,
+.left-table td,
+.right-table th,
+.right-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 3px solid #DDD;
+}
+
+.left-table tr:hover,
+.right-table tr:hover {
+    background-color: #baa6c9;
+    color: white;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 20px;
+}
+
+.table th,
+.table td {
+    padding: 10px;
+    border: none;
+    background-color: white;
+    width: 10%;
+    text-align: left;
+}
+
+.table th {
+    text-align: center;
+    background-color: #6c7ae0;
+    color: white;
+    border: 1px solid #baa6c9;
+}
+
+.table tr:hover td {
+    background-color: #baa6c9;
+    color: white;
+}
+
+.table tr {
+    display: table-row;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 769px) {
+
+    .left-table,
+    .right-table {
+        display: flex;
+        flex-direction: column;
+    }
+
+    th,
+    td {
+        padding: 4px;
+        font-size: 14px;
+    }
+
+    table {
+        border: none;
+    }
+
+    .content-container,
+    .content-container-4 {
+        flex-basis: 100%;
+    }
+
+    .left-table thead,
+    .right-table thead {
+        display: none;
+    }
+
+    .left-table tr,
+    .right-table tr {
+        display: block;
+        border: 1px solid #000;
+        margin-bottom: 20px;
+    }
+
+    .left-table td,
+    .right-table td {
+        display: block;
+        text-align: left;
+        border: none;
+        white-space: normal;
+        word-wrap: break-word;
+        padding-left: 7em;
+        text-indent: -6em;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
+    .left-table td:before,
+    .right-table td:before {
+        content: attr(data-title) '：';
+        color: black;
+        display: inline-block;
+        width: 3em;
+        padding-left: 6em;
+    }
+
+    .left-table td:first-child,
+    .right-table td:first-child {
+        background-color: #428bca;
+        color: #fff;
+    }
+
+    th,
+    td {
+        font-size: 24px;
+    }
+}
+
+
+.custom-table {
+    min-width: 900px;
+    background-color: transparent;
+}
+
+.custom-table th.date {
+    width: 20%;
+}
+
+.custom-table th.title {
+    width: 80%;
+}
+
+.custom-table thead tr,
+.custom-table thead th {
+    border: none;
+    background-color: transparent;
+    color: black;
+    text-align: left;
+    border-bottom: 1px solid #000;
+}
+
+.custom-table tbody td {
+    border: none;
+    background-color: transparent;
+    color: black;
+    border-bottom: 1px solid gray;
+}
+
+.row.header {
+    table-layout: fixed;
+}
+
+.cell {
+    line-height: 2;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#column1:hover {
+    color: black;
+}
+
+#column2:hover {
+    color: black;
+}
+
+#column3:hover {
+    color: black;
+}
+
+#year {
+    width: 3%;
+}
+
+#thing {
+    width: 97%;
+}
+
+#text {
+    text-align: center;
+}
+
+#title {
+    width: 85%;
+}
+
+.banner {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 769px) {
+    .wrap {
+        width: 100%;
+    }
+
+    .main {
+        height: auto;
+    }
+
+    .pho img {
+        width: 100%;
+        height: auto;
+    }
+
+    .content p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .detail {
+        margin: 10px;
+        text-align: center;
+    }
+
+    .phohograph img {
+        width: 100%;
+        height: auto;
+    }
+
+    .phohograph-4 img {
+        display: none;
+    }
+
+    .bdtext h1 {
+        width: auto;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .bdtext span {
+        margin-left: 0;
+    }
+
+    .material-icons {
+        margin-left: 0;
+    }
+}
+
+.main-teacher {
+    height: auto;
+    background-color: antiquewhite;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+}
+
+.main-teacher-p {
+    font-size: 30px;
+    font-family: 微軟正黑體;
+    font-weight: bold;
+    color: black;
+    margin: 10px;
+    text-align: center;
+}
+
+.material-icons {
+    font-size: 26px;
+    vertical-align: middle;
+    color: black;
+    margin-right: 5px;
+    /* 調整左側間隔 */
+}
+
+.teacher-card-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.icon-text-container {
+    display: flex;
+    align-items: top;
+}
+
+.card {
+    max-width: 640px;
+    background-color: antiquewhite;
+    /* max-height: 360px; */
+}
+
+.card-title {
+    text-align: center;
+    background-color: #baa6c9;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    /* 確保卡片內容垂直堆疊 */
+}
+
+.card-text {
+    font-size: 1.5em;
+    flex: 1;
+    font-family: 微軟正黑體;
+    word-break: break-all;
+    /* 確保英文數字 會自動換行 */
+    white-space: normal;
+    /* 允許自動換行 */
+    margin-bottom: 20px;
+    word-wrap: break-word;
+    text-align:left ;
+}
+
+.text-keep {
+    word-break: keep-all;
+    /* 保持文字不在單字中間斷開 */
+    white-space: nowrap;
+}
+
+.teacher-text-keep {
+    word-break: keep-all;
+    /* 保持文字不在單字中間斷開 */
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .icon-text-container {
+        flex-basis: 100%;
+        /* 在小螢幕上，卡片佔滿整行 */
+    }
+}
+
+.bbb {
+    cursor: default;
+}
+
+.navbar-parent {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    background-color: #005896;
+
+}
