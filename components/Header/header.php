@@ -165,6 +165,24 @@
                                         </ul>
                                     </li>
 
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+
+                                    <li class="nav-item dropend">
+                                        <a class="dropdown-item dropdown-toggle" href="#">AI跨領域技優專班</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="./pages/navbar-sublist/Admissions-List/ai1.php">課程規劃</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="./pages/navbar-sublist/Admissions-List/ai2.php">修業規定</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="./pages/navbar-sublist/Admissions-List/ai3.php">課程地圖</a></li>
+                                        </ul>
+                                    </li>
                                 </ul>
                             </li>
 
