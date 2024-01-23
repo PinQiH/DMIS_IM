@@ -135,13 +135,33 @@
                                     </li>
 
                                     <li class="nav-item dropend">
-                                        <a class="dropdown-item dropdown-toggle" href="#">碩士班</a>
+                                        <a class="dropdown-item dropdown-toggle" href="#">AI加值智慧製造專班</a>
                                         <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="./pages/navbar-sublist/Admissions-List/gra1.php">碩士班甄試招生</a></li>
+                                            <li><a class="dropdown-item" href="./pages/navbar-sublist/Admissions-List/gra1.php">相關法規(Pháp Luật Liên Quan)</a></li>
                                             <li>
                                                 <hr class="dropdown-divider">
                                             </li>
-                                            <li><a class="dropdown-item" href="./pages/navbar-sublist/Admissions-List/gra2.php">碩士班考試暨碩士在職專班甄試招生</a></li>
+                                            <li><a class="dropdown-item" href="./pages/navbar-sublist/Admissions-List/gra2.php">招生簡章(Thông Tin Tuyển Sinh)</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="./pages/navbar-sublist/Admissions-List/gra2.php">課程規劃(Kế Hoạch Giảng Dạy)</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="./pages/navbar-sublist/Admissions-List/gra2.php">課程基準表(Chương Trình Học)</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="./pages/navbar-sublist/Admissions-List/gra2.php">教育部境外生諮詢專線(Bộ giáo dục Đường dây nóng)</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="./pages/navbar-sublist/Admissions-List/gra2.php">學習輔助資源(Hỗ Trợ Học Tập)</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="./pages/navbar-sublist/Admissions-List/gra2.php">課表 (Lịch Học)</a></li>
                                         </ul>
                                     </li>
 
