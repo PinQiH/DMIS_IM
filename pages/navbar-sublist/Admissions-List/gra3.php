@@ -21,10 +21,6 @@
         </div>
 
         <div class="main">
-            <div class="photo">
-                <img src="./assets/images/德明財經科技大學banner02-2023.11.06.jpg" class="d-block w-100 " alt="...">
-            </div><br><br>
-
             <div class="title">
                 <h2>課程規劃(Kế Hoạch Giảng Dạy)</h2><br><br>
             </div>

@@ -21,10 +21,6 @@
         </div>
 
         <div class="main">
-            <div class="photo">
-                <img src="./assets/images/德明財經科技大學banner02-2023.11.06.jpg" class="d-block w-100 " alt="...">
-            </div><br><br>
-
             <div class="title">
                 <h2>相關法規(Pháp Luật Liên Quan)</h2><br><br>
             </div>
