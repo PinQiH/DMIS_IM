@@ -13,7 +13,7 @@ if ($link === false) {
     die("ERROR: Could not connect. " . mysqli_connect_error());
 } 
 
-$GLOBALS['rootPath']  = 'localhost/DMIS_IM';
+$GLOBALS['rootPath']  = 'localhost/school';
 
 mysqli_set_charset($link, "utf8");
 
