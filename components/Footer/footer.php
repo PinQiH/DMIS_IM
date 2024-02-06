@@ -38,8 +38,10 @@
 
                 </td><td></td><td></td>
                 <td data-title='官方Line'>
-                    <br>
-                    <img src="./assets/images/722ihioo.png" style="max-width: 150px; max-height: 150px;">
+                    <br><br>
+                    <div style="display: inline-block;">
+                        <img src="./assets/images/722ihioo.png" style="max-width: 150px; max-height: 150px;">
+                    </div>
                 </td>
             </tr>
         </table>

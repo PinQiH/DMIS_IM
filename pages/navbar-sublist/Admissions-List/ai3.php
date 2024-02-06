@@ -22,7 +22,7 @@
 
         <div class="main">
             <div class="photo">
-                <img src="./assets/images/315116025986.jpg" class="d-block w-100 " alt="...">
+                <img src="./assets/images/S__530661382.jpg" class="d-block w-100 " alt="...">
             </div><br><br>
         </div>
     </div>
